@@ -1,0 +1,129 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+.home-slider{
+  padding-top: 20px ;
+}
+.categories_menu{
+    position: relative;
+    float: left;
+    z-index: 9;
+    margin-right: 30px;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px 0px #ccc;
+}
+.categories_menu h2 {
+  background: #efefef;
+  padding: 10px 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #5e5e5e;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.categories_menu ul {
+    list-style: none;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid #F15A22;
+    min-height: 397px;
+  }
+  
+  .categories_menu li {
+    display: block;
+    /* position: relative; */
+  }
+  
+  .categories_menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .categories_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: 2px solid #F15A22;
+  }
+  
+  .categories_menu ul ul ul {
+    left: 100%;
+    top: 0;
+  }
+  
+
+  
+  .categories_menu ul ul li {
+    display: block;
+    width: 250px;
+  }
+  
+  .categories_menu ul ul a {
+    padding: 8px 10px;
+    color: #333;
+  }
+  .categories_menu  li:hover > a {
+    color: #F15A22;
+  }
+  .categories_menu ul ul ul a {
+    padding-left: 30px;
+  }
+  .categories_menu ul li a:hover,  .categories_menu ul li a.active{
+    color: #ffffff;
+    background-color: #F15A22;
+  }
+  .categories_menu ul li a i{
+    font-family: 'themify';
+    float: right;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0;
+    color:  #F15A22;
+  }
+  .categories_menu ul li a.active i{
+    color: #fff;
+  }
+  #logo{
+    height: 100%;
+    padding: 20px 20px 0px 0px;
+    display: inline;
+    float: left;
+  }
+  .container-wrap{
+    padding: 0px 8px;
+  }
+  @media (min-width: 1200px){
+    .product_grid .col-xl-3 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    
+  }
+  @media (min-width: 761px){
+    .product_grid .col-xl-3 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
+  @media (max-width: 768px){
+    .product_grid .col-xl-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    
+  }
+  @media (max-width: 425px){
+    .product_grid .col-md-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    
+  }
